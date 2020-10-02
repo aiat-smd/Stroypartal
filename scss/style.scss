@@ -1,0 +1,19 @@
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 1110px;
+}
+.header {
+    width: 1280px;
+    height: 474px;
+    background-color: #fff;
+
+    &__top {
+        height: 32px;
+        background-color: #FAFBFC;;
+    }
+}
+
