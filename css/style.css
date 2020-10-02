@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
+  font-family: "Open Sans";
   background-color: #E5E5E5;
+  margin: 100px;
+  padding: 0;
 }
 
 .container {
@@ -16,4 +28,32 @@ body {
   height: 32px;
   background-color: #FAFBFC;
   border-bottom: 1px solid #ECEFF1;
+}
+.header__top__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7px;
+  font-size: 12px;
+  color: #708598;
+}
+.header__location {
+  line-height: 20px;
+  color: #708598;
+}
+
+.main-nav {
+  display: flex;
+  margin: 0;
+}
+.main-nav__item {
+  list-style: none;
+  margin-left: 24px;
+}
+.main-nav__item__link {
+  color: #708598;
+}
+.main-nav__item__link:hover {
+  color: black;
+  transition: 0.2s;
 }
