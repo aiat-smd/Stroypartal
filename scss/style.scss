@@ -5,6 +5,7 @@ body {
 
 .container {
     width: 1110px;
+    margin: 0 auto;
 }
 .header {
     width: 1280px;
@@ -14,6 +15,7 @@ body {
     &__top {
         height: 32px;
         background-color: #FAFBFC;;
+        border-bottom: 1px solid #ECEFF1;
     }
 }
 
