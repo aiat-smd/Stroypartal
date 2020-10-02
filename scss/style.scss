@@ -1,3 +1,6 @@
+html {
+    box-sizing: border-box;
+}
 * {
     margin: 0;
     padding: 0;
@@ -58,4 +61,31 @@ body {
         }
     }
 }
-
+.logo__img {
+    width: 221px;
+    height: 48px;
+}
+.svg-wrapper {
+    position: relative;
+    display: inline;
+}
+.svg-wrapper::after {
+    position: absolute;
+    content: "";
+    top: -2px;
+    left: 11px;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.btn-list {
+    display: flex;
+    align-items: center;
+}
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
