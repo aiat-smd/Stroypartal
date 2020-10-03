@@ -1,5 +1,6 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 * {
@@ -16,7 +17,7 @@ button {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   background-color: #E5E5E5;
   margin: 100px;
   padding: 0;
@@ -32,46 +33,69 @@ body {
   height: 474px;
   background-color: #fff;
 }
+
 .header__top {
   height: 32px;
   background-color: #FAFBFC;
   border-bottom: 1px solid #ECEFF1;
 }
+
 .header__top__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 7px;
   font-size: 12px;
   color: #708598;
 }
+
 .header__location {
   line-height: 20px;
   color: #708598;
 }
+
 .header__bottom {
   border-bottom: 1px solid #ECEFF1;
 }
+
 .header__bottom__wrapper {
   height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
+
 .main-nav__item {
   list-style: none;
   margin-left: 24px;
 }
+
 .main-nav__item__link {
   color: #708598;
 }
+
 .main-nav__item__link:hover {
   color: black;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -92,6 +116,7 @@ body {
   font-size: 14px;
   color: #050F19;
 }
+
 .btn-katalog:hover {
   background-color: #fdcb00;
 }
@@ -127,6 +152,7 @@ body {
   border: 1px solid #ECEFF1;
   background-color: #FAFBFC;
 }
+
 .btn-spisok:hover {
   background-color: #f1f1f1;
 }
@@ -149,8 +175,12 @@ body {
 }
 
 .btn-spisok {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .btn-user {
@@ -163,3 +193,4 @@ body {
   height: 40px;
   border-radius: 50%;
 }
+/*# sourceMappingURL=style.css.map */
