@@ -42,6 +42,18 @@ body {
         line-height: 20px;
         color: #708598;
     }
+
+    &__bottom {
+        border-bottom: 1px solid #ECEFF1;
+
+        &__wrapper {
+            height: 76px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+    }
+    
 }
 
 .main-nav {
@@ -55,6 +67,7 @@ body {
         &__link {
             color: #708598;;
         }
+
         &__link:hover {
             color: black;
             transition: 0.2s;
@@ -65,6 +78,44 @@ body {
     width: 221px;
     height: 48px;
 }
+.btn-katalog {
+    width: 116px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FED83D;;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 14px;
+    color: #050F19;
+}
+.input-form {
+    position: relative;
+}
+.search {
+    width: 526px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ECEFF1;
+}
+.input-form::after {
+    position: absolute;
+    background-image: url("../images/svg.png");
+    content: "";
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.btn-spisok {
+    width: 111px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #ECEFF1;
+    background-color: #FAFBFC;
+}
 .svg-wrapper {
     position: relative;
     display: inline;
@@ -72,20 +123,24 @@ body {
 .svg-wrapper::after {
     position: absolute;
     content: "";
-    top: -2px;
+    top: -1px;
     left: 11px;
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     background-color: red;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid #FAFBFC;
     border-radius: 50%;
 }
-.btn-list {
+.btn-spisok {
     display: flex;
     align-items: center;
+}
+.btn-user {
+    border: none;
+    background: transparent;
 }
 .user-img {
     width: 40px;
     height: 40px;
-    border-radius: 50%
+    border-radius: 50%;
 }
