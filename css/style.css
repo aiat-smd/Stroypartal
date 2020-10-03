@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  outline: none;
+}
+
 body {
   font-family: "Open Sans";
   background-color: #E5E5E5;
@@ -88,6 +92,9 @@ body {
   font-size: 14px;
   color: #050F19;
 }
+.btn-katalog:hover {
+  background-color: #fdcb00;
+}
 
 .input-form {
   position: relative;
@@ -96,8 +103,10 @@ body {
 .search {
   width: 526px;
   height: 40px;
+  padding-left: 10px;
   border-radius: 4px;
   border: 1px solid #ECEFF1;
+  outline: none;
 }
 
 .input-form::after {
@@ -117,6 +126,9 @@ body {
   border-radius: 4px;
   border: 1px solid #ECEFF1;
   background-color: #FAFBFC;
+}
+.btn-spisok:hover {
+  background-color: #f1f1f1;
 }
 
 .svg-wrapper {
