@@ -6,6 +6,8 @@ html {
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 a {
@@ -20,7 +22,6 @@ body {
   font-family: 'Open Sans';
   background-color: #E5E5E5;
   margin: 100px;
-  padding: 0;
 }
 
 .container {
@@ -125,15 +126,6 @@ body {
   position: relative;
 }
 
-.search {
-  width: 526px;
-  height: 40px;
-  padding-left: 10px;
-  border-radius: 4px;
-  border: 1px solid #ECEFF1;
-  outline: none;
-}
-
 .input-form::after {
   position: absolute;
   background-image: url("../images/svg.png");
@@ -144,7 +136,22 @@ body {
   height: 20px;
 }
 
+.search {
+  width: 526px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ECEFF1;
+  outline: none;
+}
+
 .btn-spisok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 111px;
   height: 40px;
   padding: 8px 16px;
@@ -172,15 +179,6 @@ body {
   background-color: red;
   border: 3px solid #FAFBFC;
   border-radius: 50%;
-}
-
-.btn-spisok {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .btn-user {
